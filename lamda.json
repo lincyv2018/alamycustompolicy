@@ -1,0 +1,37 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1540817257195",
+      "Action": [
+        "lambda:AddPermission",
+        "lambda:CreateAlias",
+        "lambda:CreateEventSourceMapping",
+        "lambda:CreateFunction",
+        "lambda:EnableReplication",
+        "lambda:GetAccountSettings",
+        "lambda:GetEventSourceMapping",
+        "lambda:GetFunction",
+        "lambda:GetFunctionConfiguration",
+        "lambda:GetPolicy",
+        "lambda:InvokeAsync",
+        "lambda:InvokeFunction",
+        "lambda:ListAliases",
+        "lambda:ListEventSourceMappings",
+        "lambda:ListFunctions",
+        "lambda:ListTags",
+        "lambda:ListVersionsByFunction",
+        "lambda:PublishVersion",
+        "lambda:PutFunctionConcurrency",
+        "lambda:RemovePermission",
+        "lambda:TagResource",
+        "lambda:UpdateAlias",
+        "lambda:UpdateEventSourceMapping",
+        "lambda:UpdateFunctionCode",
+        "lambda:UpdateFunctionConfiguration"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
