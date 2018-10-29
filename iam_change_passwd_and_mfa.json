@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1540816867308",
+      "Action": [
+        "iam:ChangePassword",
+        "iam:CreateVirtualMFADevice",
+        "iam:DeactivateMFADevice",
+        "iam:DeleteVirtualMFADevice",
+        "iam:EnableMFADevice",
+        "iam:ListMFADevices",
+        "iam:ListVirtualMFADevices",
+        "iam:ResyncMFADevice"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
