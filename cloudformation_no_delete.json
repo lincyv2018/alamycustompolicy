@@ -1,0 +1,50 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "Stmt1540814962869",
+        "Action": [
+          "cloudformation:CancelUpdateStack",
+          "cloudformation:ContinueUpdateRollback",
+          "cloudformation:CreateChangeSet",
+          "cloudformation:CreateStack",
+          "cloudformation:CreateStackInstances",
+          "cloudformation:CreateStackSet",
+          "cloudformation:CreateUploadBucket",
+          "cloudformation:DescribeAccountLimits",
+          "cloudformation:DescribeChangeSet",
+          "cloudformation:DescribeStackEvents",
+          "cloudformation:DescribeStackInstance",
+          "cloudformation:DescribeStackResource",
+          "cloudformation:DescribeStackResources",
+          "cloudformation:DescribeStackSet",
+          "cloudformation:DescribeStackSetOperation",
+          "cloudformation:DescribeStacks",
+          "cloudformation:EstimateTemplateCost",
+          "cloudformation:ExecuteChangeSet",
+          "cloudformation:GetStackPolicy",
+          "cloudformation:GetTemplate",
+          "cloudformation:GetTemplateSummary",
+          "cloudformation:ListChangeSets",
+          "cloudformation:ListExports",
+          "cloudformation:ListImports",
+          "cloudformation:ListStackInstances",
+          "cloudformation:ListStackResources",
+          "cloudformation:ListStackSetOperationResults",
+          "cloudformation:ListStackSetOperations",
+          "cloudformation:ListStackSets",
+          "cloudformation:ListStacks",
+          "cloudformation:SetStackPolicy",
+          "cloudformation:SignalResource",
+          "cloudformation:StopStackSetOperation",
+          "cloudformation:UpdateStack",
+          "cloudformation:UpdateStackInstances",
+          "cloudformation:UpdateStackSet",
+          "cloudformation:UpdateTerminationProtection",
+          "cloudformation:ValidateTemplate"
+        ],
+        "Effect": "Allow",
+        "Resource": "*"
+      }
+    ]
+  }

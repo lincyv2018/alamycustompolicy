@@ -1,0 +1,39 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1540815602409",
+      "Action": [
+        "dax:BatchGetItem",
+        "dax:BatchWriteItem",
+        "dax:CreateCluster",
+        "dax:CreateParameterGroup",
+        "dax:CreateSubnetGroup",
+        "dax:DecreaseReplicationFactor",
+        "dax:DescribeClusters",
+        "dax:DescribeDefaultParameters",
+        "dax:DescribeEvents",
+        "dax:DescribeParameterGroups",
+        "dax:DescribeParameters",
+        "dax:DescribeSubnetGroups",
+        "dax:DescribeTable",
+        "dax:GetItem",
+        "dax:IncreaseReplicationFactor",
+        "dax:ListTables",
+        "dax:ListTags",
+        "dax:PutItem",
+        "dax:Query",
+        "dax:RebootNode",
+        "dax:Scan",
+        "dax:TagResource",
+        "dax:UntagResource",
+        "dax:UpdateCluster",
+        "dax:UpdateItem",
+        "dax:UpdateParameterGroup",
+        "dax:UpdateSubnetGroup"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
